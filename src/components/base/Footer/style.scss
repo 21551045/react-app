@@ -1,0 +1,16 @@
+.footer-list {
+  display: flex;
+  list-style-type: none;
+  height: $baseBottom;
+  flex-basis: 20%;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .footer-item {
+    text-align: center;
+    .footer-item-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
